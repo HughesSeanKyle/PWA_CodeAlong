@@ -335,6 +335,13 @@ GOOD Guide on tree shaking here
 - - - opt in to using service workers
 - - Update packages with npm audit, npm audit fix and npm update
 - ## v153 - Solution Part 1 - PWA
+- - font-display: swap; - This property will swap the font-face in as soon as it loads
+- - - browsers draws text immediately and when the font-face is loaded it will swap it.
+- - - - this way the user will see the default text without the special font until
+- - - - - the font is fully loaded.
+- - <meta name="Robo App" content="Robo Social media app ;>"> - Help with SEO
+- - - Web Crawlers search for it.
+- - Performance score on lighthouse can be better/worse depending on internet speed. \*
 - ## v154 - Solution Part 2 - PWA
 - ## v155 - Solution Files - PWA
 - - https://progressivetooling.com - List of tools used to improve front end performance
