@@ -343,10 +343,36 @@ GOOD Guide on tree shaking here
 - - - Web Crawlers search for it.
 - - Performance score on lighthouse can be better/worse depending on internet speed. \*
 - ## v154 - Solution Part 2 - PWA
+- - Because of create react app there are already PWA benefits.
+- - - e.g - HTTPS, Service Workers etc.
+- - The cache storage in dev tools under application tab will show what files SW's are
+- - - caching.
+- - Generating favicons
+- - Add favicon sizes in manifest.json file according to lighthouse specs
+- - - Reminder this manifest makes it possible to add app to homescreen
 - ## v155 - Solution Files - PWA
 - - https://progressivetooling.com - List of tools used to improve front end performance
 - - Repo's of solution code.
 - ## v156 - Section Summary
+- - Code Optimizations - Only load what is needed
+- - - Code splitting
+- - - Tree Shaking
+- - Avoid blocking main thread
+- - Avoid Memory Leaks
+- - Avoid Multiple re-rendering
+- - ***
+- - PWAs
+- - - HTTPS
+- - - App Manifest
+- - - Service Worker - Deliver websites offline
+- - - Out of the three types of optimizations Perf 1 and 2 covered
+- - - - network optimizations
+- - - - - Minimize Files
+- - - - - Minimize Delivery
+- - - - Front end optimizations.
+- - - - - Critical Render Path
+- - - - - Optimized Code
+- - - - - Progressive Web Apps
 -
 -
 -
